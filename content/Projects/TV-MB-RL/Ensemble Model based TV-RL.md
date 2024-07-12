@@ -1,3 +1,4 @@
+# Ensemble Model based TV-RL
 ## Motivation
 In non stationary environment RL approaches need to adapt to new plant parameters. The  context can be inferred by the past transitions. Given discrete system changes we can use Baysian context length inference to compute a probability distribution over the context length. We need a model to compute this distribution.
 MBRL also uses a model to generate new data. The first question is if we can combine Dyna Style MBRL with nonstationary RL. The second question is if we use simmilar ideas as in MACURA to stop model unrolls not only for different state spaces areas but also for different model believes. 
