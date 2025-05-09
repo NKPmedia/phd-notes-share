@@ -1,1 +1,1 @@
-[[content/Project]]
+[[content/Projects/Projects]]
